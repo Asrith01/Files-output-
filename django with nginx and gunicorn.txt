@@ -1,0 +1,83 @@
+1  sudo apt update && sudo apt upgrade -y 
+    2  sudo apt install python3-pip
+    3  sudo apt install python3-venv
+    4  python3 -m venv pspk
+    5  ls
+    6  cd pspk/
+    7  cd
+    8  source pspk/bin/activate
+    9  pip install django 
+   10  gti clone https://github.com/Asrith01/Django-WebApp.git
+   11  git clone https://github.com/Asrith01/Django-WebApp.git
+   12  ls
+   13  cd Django-WebApp/ls
+   14  ls
+   15  cd Django-WebApp/
+   16  ls
+   17  pip install -r requirements.txt 
+   18  python3 manage.py makemigrations
+   19  pip install django-rest-framework
+   20  pip install requests
+   21  pip install pillow
+   22  pip install wheel
+   23  pip install mysqlclinet
+   24  pip install mysqlclient
+   25  python3 manage.py makemigrations
+   26  sudo apt install libmysqlclient-dev
+   27  sudo apt install pkg-config
+   28  python3 manage.py makemigrations
+   29  python3 manage.py migrate
+   30  python3 manage.py runserver 0.0.0.0:8000
+   31  sudo apt install nginx
+   32  ls
+   33  cd /etc/nginx/sites-available/
+   34  ls
+   35  vi default 
+   36  rm -rf default 
+   37  sudo rm -rf default 
+   38  sudo vi default
+   39  sudo systemctl start nginx
+   40  sudo systemctl status nginx
+   41  cd 
+   42  cd Django-WebApp/
+   43  python3 manage.py runserver 0.0.0.0:8000
+   44  cd
+   45  cd /etc/nginx/sites-available/
+   46  ls
+   47  vi default 
+   48  sudo vi default 
+   49  cd
+   50  cd Django-WebApp/
+   51  python3 manage.py runserver 0.0.0.0:8000
+   52  cd /etc/nginx/sites-available/
+   53  sudo rm -rf default 
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd sites-enabled/
+   58  ls
+   59  cat default 
+   60  sudo cat default 
+   61  sudo rm -rf default 
+   62  ls
+   63  sudo nano nginx.conf
+   64  cd
+   65  cd Django-WebApp/
+   66  ls
+   67  sudo systemctl restart nginx
+   68  sudo systemctl status nginx
+   69  python3 manage.py runserver 0.0.0.0:8000
+   70  sudo apt install gunicorn 
+   71  sudo apt install supervisor
+   72  ls
+   73  pip install gunicorn
+   74  cd /etc/supervisor/conf.d/
+   75  ls
+   76  ll
+   77  sudo nano gunicorn.conf
+   78  sudo supervisorctl reread
+   79  sudo supervisorctl update
+   80  sudo supervisorctl status
+   81  cd
+   82  cd Django-WebApp/
+   83  gunicorn django_web_app.wsgi:application -b localhost:8000 &

@@ -1,0 +1,27 @@
+cd /opt 
+
+7. sudo apt install wget unzip -y
+
+8. wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.6.zip
+
+9. ls
+
+10. unzip sonarqube-7.6.zip
+
+11. ls
+
+12. useradd sonar
+
+13. visudo
+
+14. sonar   ALL=(ALL)   NOPASSWD:ALL
+
+15. chown -R sonar:sonar /opt/sonarqube-7.6/
+
+16. chmod -R 775 /opt/sonarqube-7.6/
+ 
+17. su - sonar
+
+18. cd /opt/sonarqube-7.6/bin/linux-x86-64/
+
+19. ./sonar.sh start

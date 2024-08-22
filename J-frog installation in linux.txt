@@ -1,0 +1,21 @@
+1  sudo yum install java-1.8* -y
+    2  wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/6.17.4/jfrog-artifactory-oss-6.17.4.zip
+    3  ls
+    4  unzip jfrog-artifactory-oss-6.17.4.zip 
+    5  ls
+    6  cd artifactory-oss-6.17.4/
+    7  ls
+    8  cd bin/
+    9  ls
+   10  ./artifactory start
+   11  cd ..
+   12  ls
+   13  cd bin/
+   14  ls
+   15  ./artifactory.sh start
+   16  ./artifactory.sh status
+   17  cd /opt/
+   18  ls
+   19  cd aws/
+   20  ls
+   21  history

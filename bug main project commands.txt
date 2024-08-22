@@ -1,0 +1,9 @@
+buglegal Project commands
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv (any name) for (ex:-buglegal)
+source buglegal/bin/activate [we have to activate the environment which we have created]
+clone the code code by using git 
+git clone https://rahulasrith10@dev.azure.com/rahulasrith10/rahul/_git/rahul

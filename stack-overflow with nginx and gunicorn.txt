@@ -1,0 +1,138 @@
+    1  sudo apt update && sudo apt upgrade -y
+    2  sudo apt install python3-pip 
+    3  sudo apt install venv
+    4  sudo apt install python3-venv
+    5  git clone https://github.com/Asrith01/StackOverFlow--Clone.git
+    6  ls
+    7  pip install django
+    8  python3 -m venv kavu
+    9  ls
+   10  source kavu/bin/activate
+   11  cd StackOverFlow--Clone/
+   12  ls
+   13  pip install -r requirements.txt 
+   14  python3 -m pip install psycopg2-binary
+   15  pip install -r requirements.txt 
+   16  sudo apt install libmysqlclient-dev
+   17  sudo apt install libfreetype6-dev
+   18  sudo apt install pkg-cofig
+   19  sudo apt install pkg-config\
+   20  sudo apt install pkg-config
+   21  python3 manage.py makemigartions
+   22  pip install Django
+   23  python3 manage.py makemigartions
+   24  ls
+   25  cd m
+   26  cd main/
+   27  ls
+   28  sudo ci settings.py 
+   29  sudo vi settings.py 
+   30  python3 manage.py makemigartions
+   31  cd
+   32  cd StackOverFlow--Clone/
+   33  python3 manage.py makemigartions
+   34  pip install django-adminactions
+   35  python3 manage.py makemigartions
+   36  pip install django-taggit
+   37  python3 manage.py makemigartions
+   38  pip install django-crispy-forms
+   39  python3 manage.py makemigartions
+   40  pip install martor
+   41  python3 manage.py makemigartions
+   42  pip install django-simple-history
+   43  python3 manage.py makemigartions
+   44  pip install django-online-users
+   45  python3 manage.py makemigartions
+   46  pip install django-model-utils
+   47  python3 manage.py makemigartions
+   48  pip install python-slugify
+   49  python3 manage.py makemigartions
+   50  pip install slugify
+   51  python3 manage.py makemigartions
+   52  python3 manage.py makemigrations
+   53  pip install redis
+   54  python3 manage.py makemigrations
+   55  pip install django-redis
+   56  python3 manage.py makemigrations
+   57  pip install pillow
+   58  python3 manage.py makemigrations
+   59  python3 manage.py migrate
+   60  python3 manage.py runserver 0.0.0.0:8000
+   61  pip install whitenoise
+   62  python3 manage.py runserver 0.0.0.0:8000
+   63  pip install django-staticfiles
+   64  python3 manage.py runserver 0.0.0.0:8000
+   65  python manage.py collectstatic
+   66  python3 manage.py runserver 0.0.0.0:8000
+   67  sudo apt install nginx
+   68  cd /etc/nginx/sites-available/
+   69  ls
+   70  rm -rf default 
+   71  sudo rm -rf default 
+   72  cd ..
+   73  ls
+   74  cd sites-enabled/
+   75  ls
+   76  sudo rm -rf default 
+   77  sudo nano nginx.conf
+   78  sudo systemctl start nginx
+   79  sudo systemctl status nginx
+   80  cd ..
+   81  cd sites-enabled/
+   82  ls
+   83  sudo rm -rf nginx.conf 
+   84  cd ..
+   85  cd sites-available/
+   86  ls
+   87  sudo nano default
+   88  sudo systemctl restart nginx
+   89  sudo systemctl status nginx
+   90  cd
+   91  cd StackOverFlow--Clone/
+   92  python3 manage.py runserver 0.0.0.0:8000
+   93  cd /etc/nginx/sites-available/
+   94  sudo nano default 
+   95  sudo systemctl restart nginx
+   96  sudo systemctl status nginx
+   97  cd
+   98  cd StackOverFlow--Clone/
+   99  python3 manage.py runserver 0.0.0.0:8000
+  100  sudo systemctl restart nginx.service 
+  101  sudo systemctl status nginx.service 
+  102  cd /etc/nginx/sites-available/
+  103  ls
+  104  sudo rm default 
+  105  cd ..
+  106  cd sites-enabled/
+  107  ls
+  108  sudo nano nginxconf
+  109  sudo service nginx restart 
+  110  sudo service nginx status 
+  111  cd
+  112  ls
+  113  cd StackOverFlow--Clone/
+  114  python3 manage.py runserver 0.0.0.0:8000
+  115  sudo apt install gunicorn 
+  116  sudo apt install supervisor
+  117  pip install gunicorn
+  118  cd /etc/supervisor/conf.d/
+  119  sudo nano gunicorn.conf
+  120  sudo supervisorctl reread
+  121  sudo supervisorctl update
+  122  sudo supervisorctl status
+  123  sudo pkill gunicorn
+  124  sudo supervisorctl reread
+  125  sudo supervisorctl status
+  126  cd
+  127  cd StackOverFlow--Clone/
+  128  cd /etc/supervisor/conf.d/
+  129  ls
+  130  sudo nano gunicorn.conf 
+  131  sudo supervisorctl reread
+  132  sudo supervisorctl update
+  133  sudo supervisorctl status
+  134  dc
+  135  cd
+  136  cd StackOverFlow--Clone/
+  137  gunicorn main.wsgi:application -b 0.0.0.0:8000 &
+  138  history

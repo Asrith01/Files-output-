@@ -1,0 +1,35 @@
+ 1  docker ps
+    2  clear
+    3  docker --version
+    4  docker pull praveenchinna/sample
+    5  docker image
+    6  docker images
+    7  docker run --name asrith -d -p 1234:8000 praveenchinna/sample
+    8  docker ps
+    9  docker pull nginx
+   10  docker images
+   11  docker run --name rahul -d -p 9876:80 nginx
+   12  docker ps
+   13  docker-compose up
+   14  sudo apt install docker-compose
+   15  docker-compose up
+   16  docker images
+   17  docker-compose up
+   18  docker network create kukka
+   19  docker network ls
+   20  docker ps
+   21  docker rm -f asrith rahul
+   22  docker ps
+   23  docker images
+   24  docker run -d --name gandu --network kukka nginx
+   25  docker run -d --name donga --network kukka praveenchinna/sample
+   26  docker network inspect kukka 
+   27  apt-get update
+   28  docker ps
+   29  docker exec -it edd4339f7dbb bash
+   30  docker ps
+   31  docker exec -it 8875b69782df bash
+   32  docker exec -it gandu ping donga 
+   33  docker exec -it 8875b69782df bash
+   34  docker exec -it gandu ping donga 
+   35  history 

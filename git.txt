@@ -1,0 +1,7 @@
+1. Open a folder and right click and open git bash here
+2. Then start using command "Git init"
+3. Use the command git clone to add repo you will get the repo in local 
+4. Now use the command to add files whatever we want to add ["git add files name" , "git add ."] this command is used to push all files at a time.
+5. git commit -m "files" this command is used for save all the files which we added.
+6. git push -u origin main this command is used for to push all the files to repo which we have cloned.
+  

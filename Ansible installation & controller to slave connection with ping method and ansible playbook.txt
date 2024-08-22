@@ -1,0 +1,32 @@
+sudo apt update
+sudo apt upgrade
+sudo hostname parent (Hostname is nothing but changing the name for example:-[ip address:- 32.098.18.31 to nani])
+sudo apt install ansible
+ansible --version
+ssh-keygen
+vi hosts inside we have to paste [slave private ip addresses and create a group name]
+
+when u have generated keygen get into cd .ssh/ and use command as [cat id.pub] file and copy the key and paste it in slave server of cd .ssh/ in authorized keys
+
+Then, ansible -i hosts rahul -m ping
+
+ansible -i <-i is nothing but inventory> hosts is nothing but a group name -m is module.
+
+after create a yml file <name.yml> inside that write a playbook regarding nginx
+
+---
+- hosts: rahul
+  tasks:
+    - name: install nginx
+      apt: name=nginx state=latest
+    - name: start nginx
+      service:
+          name: nginx
+          state: started
+
+This is [playbook] Now we can use the command to run nginx playbook 
+
+Ansible-playbook -i hosts <yml file name> -b 
+
+-b is nothing but giving yes to run the playbook [playbook is nothing but the script which we have written in the yml file]
+

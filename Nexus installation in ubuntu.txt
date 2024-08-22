@@ -1,0 +1,25 @@
+ 	                			                    Nexus Installation in ubuntu
+
+https://medium.com/@dikkumburage/how-to-install-nexus-repository-on-ubuntu-20-04-lts-4012e23698ad (we can have commands in this to run the nexus)
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install 
+sudo apt install openjdk-8-jre-headless
+cd /opt
+sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+ls 
+tar -xvf latest-unix.tar.gz
+cd /opt
+sudo mv nexus-3.65.0-02/ nexus
+sudo chown -R nexus:nexus /opt/nexus
+sudo chown -R nexus:nexus /opt/sonatype-work
+sudo adduser name (any name fro example "rahul")
+visudo 
+user name ALL=(ALL) NOPASSWD:ALL
+sudo vim  /opt/nexus/bin/nexus.rc
+run_as_user="rahul"
+chmod 777 -R nexus sonatype-work/
+cd /opt/nexus/bin 
+./nexus start 
+./nexus status 
+browse the ip address with :8081

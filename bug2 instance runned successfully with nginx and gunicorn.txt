@@ -1,0 +1,399 @@
+  clear
+  sudo apt update && sudo apt upgrade -y
+  sudo apt install python3-pip
+  sudo apt install python3-venv
+  python3 -m venv bug2
+  git clone https://rahulasrith10@dev.azure.com/rahulasrith10/rahul/_git/rahul
+  source bug2/bin/activate
+  ls
+  cd rahul/
+  pip install -r requirements.txt 
+  sudo apt install pkg-config 
+  sudo apt install libmysqlclient-dev -y
+  python -m pip install --upgrade setuptools
+  cd worktride/ 
+  sudo nano settings.py 
+  cd ..
+  ls
+  cd ehrms/
+  ls
+  sudo nano views.py 
+  cd ..
+  ls
+  sudo rm -r install_dependencies.sh 
+  ls
+  pip install -r requirements.txt 
+  python manage.py makemigrations
+  python manage.py migrate
+  pip install django
+  python manage.py migrate
+  cd worktride/
+  sudo nano settings.py 
+  python manage.py migrate
+  cd ..
+  python manage.py migrate
+  python manage.py runserver 0.0.0.0:8000
+  cd worktride/
+  cd worktride/
+   sudo nano settings.py 
+   cd ..
+   python manage.py runserver 0.0.0.0:8000
+   cd worktride/
+   sudo vi settings.py 
+   cd ..
+   python manage.py runserver 0.0.0.0:8000
+   sudo apt-get install tkinter
+   sudo apt-get install tk -y
+   sudo apt-get install python3-tk
+   python manage.py runserver 0.0.0.0:8000
+   sudo apt install nginx -y
+   sudo apt update
+   sudo apt upgrade -y
+   sudo reboot
+   source bug2/bin/activate
+   cd rahul/
+   cd /etc/nginx/sites-available/
+   ls
+   sudo nano nginx.conf
+   cd
+   cd rahul/
+   pip install gunicorn
+   sudo apt install supervisor
+   cd /etc/supervisor/conf.d/
+   ls
+   sudo nano gunicorn.conf
+   which gunicorn
+   sudo nano gunicorn.conf
+   cat gunicorn.conf 
+   sudo nano gunicorn.conf 
+   sudo supervisorctl reread
+   sudo nano gunicorn.conf 
+   cd 
+   cd rahul/
+   pwd
+   which gunicorn
+   cd /etc/supervisor/conf.d/
+   78  sudo nano gunicorn.conf 
+   79  cd
+   80  cd rahul/
+   81  sudo supervisorctl reread
+   82  cd /etc/supervisor/conf.d/
+   83  sudo nano gunicorn.conf 
+   84  sudo supervisorctl reread
+   85  sudo nano gunicorn.conf 
+   86  which gunicorn
+   87  cd
+   88  ls
+   89  cd rahul/
+   90  ls
+   91  pwd
+   92  cd /etc/supervisor/conf.d/
+   93  ls
+   94  sudo nano gunicorn.conf 
+   95  sudo supervisorctl reread
+   96  pip install gunicorn
+   97  sudo apt install gunicorn
+   98  sudo apt install supervisor
+   99  sudo supervisorctl reread
+  100  sudo supervisorctl update
+  101  sudo supervisorctl status
+  102  source bug2/bin/activate
+  103  cd rahul/
+  104  cat /etc/supervisor/conf.d/gunicorn.conf 
+  105  gunicorn worktride.wsgi:application -b 0.0.0.0:8000
+  106  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 &
+  107  sudo supervisorctl reread 
+  108  sudo supervisorctl update
+  109  sudo supervisorctl status
+  110  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 &
+  111  sudo pkill gunicorn 
+  112  sudo suspervisor gunicorn
+  113  sudo suspervisoctlr gunicorn
+  114  sudo suspervisorctl gunicorn
+  115  sudo suspervisorctl reread
+  116  sudo supervisorctl reread
+  117  sudo supervisorctl update
+  118  sudo supervisorctl status
+  119  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 &
+  120  cd /etc/nginx/sites-available/
+  121  ls
+  122  sudo nano nginx.conf
+  123  ls
+  124  sudo nano bug.conf
+  125  sudo nano default 
+  126  cd ..
+  127  cd sites-enabled/
+  128  ls
+  129  cd ..
+  130  cd sites-available/
+  131  ls
+  132  sudo ln -s bug.conf /etc/nginx/sites-enabled/bug.conf
+  133  sudo systemctl reload nginx.service 
+  134  cd ..
+  135  cd sites-enabled/
+  136  ls
+  137  sudo rm -r bug.conf 
+  138  cd ..
+  139  cd sites-enabled/
+  140  ls
+  141  cd ..
+  142  sudo sytemctl status nginx.conf 
+  143  sudo sytemctl status nginx
+  144  sudo systemctl status nginx
+  145  sudo systemctl stop nginx.service
+  146  sudo systemctl restart nginx.service
+  147  sudo systemctl status nginx.service
+  148  sudo supervisorctl status
+  149  cd
+  150  cd rahul/
+  151  python manage.py runserver 0.0.0.0:8000
+  152  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 & 
+  153  sudo pkill gunicorn 
+  154  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 & 
+  155  sudo pkill gunicorn 
+  156  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 & 
+  157  sudo pkill gunicorn 
+  158  cd
+  159  cd rahul/
+  160  /home/ubuntu/
+  161  which gunicorn
+  162  clear
+  163  source bug2/bin/activate
+  164  cd rahul/
+  165  which gunicorn
+  166  \ls
+  167  source demo/bin/activate
+  168  ls
+  169  cd rahul/
+  170  ls
+  171  sudo python manage.py runserver 0.0.0.0:80
+  172  python manage.py runserver 0.0.0.0:80
+  173  python3 manage.py runserver 0.0.0.0:80
+  174  pip install django
+  175  which gunicorn
+  176  which nginx
+  177  sudo apt install python3-pip
+  178  python3 manage.py runserver 0.0.0.0:80
+  179  pip install django
+  180  ls /usr/bin/python*
+  181  virtualenv -p /usr/bin/python3.8 /home/ubuntu/demo
+  182  virtualenv -p /usr/bin/python3.10 /home/ubuntu/demo
+  183  cd ..
+  184  rm -rf /home/ubuntu/demo
+  185  ls
+  186  source /home/ubuntu/demo/bin/activate
+  187  ls
+  188  cd rahul/
+  189  python3 manage.py runserver 0.0.0.0:80
+  190  pip install channels
+  191  python3 manage.py runserver 0.0.0.0:80
+  192  pip install django-mathfilters
+  193  python3 manage.py runserver 0.0.0.0:80
+  194  pip install notifications
+  195  python3 manage.py runserver 0.0.0.0:80
+  196  pip install django-user-agents
+  197  python3 manage.py runserver 0.0.0.0:80
+  198  pip install django-allauth
+  199  python3 manage.py runserver 0.0.0.0:80
+  200  sudo apt install libmysqlclient-dev
+  201  python3 manage.py runserver 0.0.0.0:80
+  202  la
+  203  source bug2/bin/activate
+  204  ls
+  205  cd rahul/
+  206  sudo systemctl nginx status
+  207  sudo systemctl status nginx
+  208  sudo supervisorctl status
+  209  which gunicorn
+  210  /home/ubuntu/bug2/bin/gunicorn worktried.wsgi:application -b 0.0.0.0:8000 &
+  211  /home/ubuntu/bug2/bin/gunicorn worktride.wsgi:application -b 0.0.0.0:8000 &
+  212  sudo pkill gunicorn
+  213  python3 manage.py runserver 0.0.0.0:8000
+  214  python3 manage.py runserver 0.0.0.0:80
+  215  python3 manage.py runserver 0.0.0.0:81
+  216  cd /etc/supervisor/conf.d/
+  217  ls
+  218  sudo nano gunicorn.conf 
+  219  cd ../../..
+  220  cd ~/rahul
+  221  python3 manage.py runserver 0.0.0.0:80
+  222  cd /etc/supervisor/conf.d/
+  223  ls
+  224  sudo nano gunicorn.conf 
+  225  sudo supervisorctl reread
+  226  sudo supervisorctl update
+  227  sudo supervisorctl status
+  228  cd ../../..
+  229  cd ~/rahul
+  230  python3 manage.py runserver 0.0.0.0:80
+  231  python3 manage.py runserver 0.0.0.0:8000
+  232  sudo service status nginx
+  233  sudo servicectl status nginx
+  234  sudo systemctl status nginx
+  235  sudo supervisorctl status
+  236  cd /etc/supervisor/conf.d/
+  237  ls
+  238  sudo nano gunicorn.conf 
+  239  sudo supervisorctl reread
+  240  sudo supervisorctl update
+  241  sudo supervisorctl status
+  242  python3 manage.py runserver 0.0.0.0:80
+  243  cd ../../../
+  244  cd ~/rahul
+  245  python3 manage.py runserver 0.0.0.0:80
+  246  cd /etc/supervisor/conf.d/
+  247  ls
+  248  sudo nano gunicorn.conf 
+  249  sudo supervisorctl reread
+  250  sudo supervisorctl update
+  251  sudo supervisorctl status
+  252  cd ../../..
+  253  cd ~/rahul
+  254  python3 manage.py runserver 0.0.0.0:80
+  255  sudo python3 manage.py runserver 0.0.0.0:80
+  256  pip install django
+  257  sudo python3 manage.py runserver 0.0.0.0:80
+  258  pip install django
+  259  sudo python3 manage.py runserver 0.0.0.0:80
+  260  sudo apt install django
+  261  sudo apt-get install django
+  262  sudo apt install vertualenv
+  263  sudo apt install vertualvenv
+  264  sudo apt install virtualvenv
+  265  sudo apt install virtualenv
+  266  sudo python3 manage.py runserver 0.0.0.0:80
+  267  sudo apt-get install django
+  268  pip install django
+  269  sudo pip3 install virtualenv
+  270  sudo python3 manage.py runserver 0.0.0.0:80
+  271  source /path/to/your/venv/bin/activate
+  272  cd ..
+  273  ls
+  274  python3 -m venv demo
+  275  sudo rm -r bug2/
+  276  ls
+  277  history
+  278  ls
+  279  source demo/bin/activate
+  280  cd r 
+  281  cd  rahul/
+  282  ls
+  283  python manage.py runserver 0.0.0.0:8000
+  284  pip install mysql-python
+  285  pip install mysqlclient
+  286  sudo apt-get install libmysqlclient-dev
+  287  sudo apt-get install python-mysqldb
+  288  python manage.py runserver 0.0.0.0:8000
+  289  pip install django-ckeditor
+  290  source demo/bin/activate
+  291  cd rahul/
+  292  pip install django-ckeditor
+  293  sudo python3 manage.py runserver 0.0.0.0:80
+  294  pip install Django
+  295  sudo python3 manage.py runserver 0.0.0.0:80
+  296  sudo pip install virtualenv
+  297  sudo pip3 install virtualenv
+  298  ls
+  299  cd
+  300  ls
+  301  sudo rm -rf demo/
+  302  ls
+  303  sudo pip install virtualenv
+  304  sudo pip3 install virtualenv
+  305  virtualenv frnd
+  306  ls
+  307  source frnd/bin/activate
+  308  cd rahul/
+  309  django-admin --version
+  310  sudo apt install python3-django
+  311  python manage.py runserver 0.0.0.0:8000
+  312  pip install django
+  313  pip3 install django
+  314  django-admin --version
+  315  python3 manage.py runserver 0.0.0.0:8000
+  316  pip install channels
+  317  python3 manage.py runserver 0.0.0.0:8000
+  318  pip install django-mathfilters
+  319  python3 manage.py runserver 0.0.0.0:8000
+  320  pip install django-notifications2
+  321  python3 manage.py runserver 0.0.0.0:8000
+  322  pip install django_notifications
+  323  python3 manage.py runserver 0.0.0.0:8000
+  324  pip install notifications
+  325  python3 manage.py runserver 0.0.0.0:8000
+  326  pip install -r requirements.txt 
+  327  python3 manage.py makemigrations
+  328  python3 manage.py migrate
+  329  python3 manage.py runserver 0.0.0.0:8000
+  330  ls
+  331  cd worktride/
+  332  ls
+  333  sudo nano settings.py 
+  334  cd ..
+  335  python3 manage.py runserver 0.0.0.0:8000
+  336  sudo apt install nginx
+  337  cd /etc/nginx/sites-available/
+  338  ls
+  339  cat bug.conf 
+  340  sudo nano bug.conf 
+  341  cd ..
+  342  cd 
+  343  cd rahul/
+  344  sudo systemctl restart nginx.service 
+  345  sudo systemctl status nginx.service
+  346  cd /etc/nginx/sites-enabled/
+  347  ls
+  348  cd ..
+  349  cd sites-available/
+  350  ls
+  351  cp bug.conf /etc/nginx/sites-enabled/bug.conf
+  352  sudo cp bug.conf /etc/nginx/sites-enabled/bug.conf
+  353  cd ..
+  354  sudo systemctl reload nginx.service 
+  355  sudo systemctl status nginx.service 
+  356  cd 
+  357  cd rahul/
+  358  sudo supervisorctl reread
+  359  sudo supervisorctl status
+  360  cd /etc/supervisor/conf.d/
+  361  ls
+  362  sudo nano gunicorn.conf 
+  363  cd 
+  364  cd rahul/
+  365  sudo supervisorctl reread
+  366  sudo supervisorctl update
+  367  sudo supervisorctl status
+  368  pip install gunicorn
+  369  sudo supervisorctl status
+  370  sudo stop supervisor
+  371  sudo supervisorctl stop
+  372  sudo supervisorctl stop gunicorn
+  373  cd
+  374  cd frnd/
+  375  ls
+  376  cd bin/
+  377  ls
+  378  cd 
+  379  cd /etc/
+  380  cd supervisor/
+  381  cd conf.d/
+  382  ls
+  383  sudo nano gunicorn.conf 
+  384  cp gunicorn.conf buglegal.conf
+  385  sudo cp gunicorn.conf buglegal.conf
+  386  ls
+  387  sudo supervisorctl reread
+  388  sudo supervisorctl update
+  389  sudo supervisorctl status
+  390  sudo supervisorctl reread buglegal.conf 
+  391  ls
+  392  sudo rm -r buglegal.conf 
+  393  ls
+  394  sudo nano gunicorn.conf 
+  395  sudo supervisorctl reread
+  396  sudo supervisorctl update
+  397  sudo supervisorctl status
+  398  cd
+  399  cd rahul/
+  400  gunicorn worktride.wsgi:application -b 0.0.0.0:8000 &
+  401  history

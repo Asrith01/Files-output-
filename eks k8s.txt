@@ -1,0 +1,21 @@
+1  aws eks update-kubeconfig --name cluster1
+    2  aws eks update-kubeconfig --name bajji
+    3  ls
+    4  kubectl get nodes
+    5  kubectl get nodes -o wide
+    6  nano rahul.yml
+    7  kubectl create -f rahul.yml 
+    8  kubectl get pods
+    9  kubectl get nodes -o wide
+   10  kubectl delete pod praveen-deployment-868dfc59d4-jwxnz
+   11  kubectl get pods
+   12  kubectl get deployments --all-namespaces
+   13  kubectl delete -n default deployment praveen-deployment
+   14  kubectl get pods
+   15  ls
+   16  cat rahul.yml 
+   17  rm rahul.yml 
+   18  ls
+   19  kubectl get nodes
+   20  kubectl get nodes -o wide
+   21  history 
